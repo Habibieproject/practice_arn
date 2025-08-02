@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practice_arn/views/first_screen.dart';
+import 'package:practice_arn/views/flutter_widget_2/expanded.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: FirstScreen(),
+      home: FlutterWidget2Expanded(),
     );
   }
 }
