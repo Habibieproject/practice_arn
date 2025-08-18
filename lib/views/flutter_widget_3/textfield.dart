@@ -6,7 +6,7 @@ class FlutterWidget3TextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Flutter Widget 3 GridView Builder")),
+      appBar: AppBar(title: Text("Flutter Widget 3 TextField")),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
